@@ -1,0 +1,32 @@
+https://www.kaggle.com/liewyousheng/productrelevance
+
+Контекст
+«Цель» этого набора данных — предсказать, насколько каждый продукт актуален для каждого клиента, чтобы гарантировать, что будущие рекомендации и продажи будут актуальны для клиента.
+
+Содержание
+Эта база данных содержит 22 атрибута, которые являются одними из наиболее распространенных атрибутов, которые собираются, когда компания продает продукт покупателю.
+
+Целевая переменная: столбец ['score']
+
+['user-id',  ///The unique ID number given to the customer by the company upon registration.
+ 'user-age', ///Customer’s current age.
+ 'user-gender', ///Customer’s gender.
+ 'user-nationality', ///Customer’s nationality is represented by two categories, local and foreign.
+ 'user-knowledge', ///Customer’s investment knowledge level.
+ 'user-loyalty', ///Customer’s consistency in purchasing products.
+ 'user-loan', ///Customer’s loan obligation status.
+ 'user-income', ///Customer’s monthly income.
+ 'user-savings', ///Amount of savings the customer has.
+ 'user-properties', ///Number of properties the customer has.
+ 'user-riskAversion', ///Customer’s risk aversion level.
+ 'user-marital', ///Customer’s marital status.
+ 'user-dependents', ///Number of dependents the customer has.
+ 'user-pension', ///Customer’s current pension value.
+ 'product-type', ///Type of product purchased.
+ 'product-risk', ///Product’s risk level.
+ 'product-term', ///Product’s maturity duration.
+ 'product-yield', ///Product’s yield level
+ 'transaction-id', ///The unique ID assigned to each transaction.
+ 'year', ///The year when the transaction was performed.
+ 'month', ///The month when the transaction was performed.
+ 'score'] ///The relevance score of the transaction to the user.
