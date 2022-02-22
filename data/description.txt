@@ -1,4 +1,5 @@
 https://www.kaggle.com/liewyousheng/productrelevance
+================================================================================================= 
 
 Контекст
 «Цель» этого набора данных — предсказать, насколько каждый продукт актуален для каждого клиента, чтобы гарантировать, что будущие рекомендации и продажи будут актуальны для клиента.
@@ -7,6 +8,8 @@ https://www.kaggle.com/liewyousheng/productrelevance
 Эта база данных содержит 22 атрибута, которые являются одними из наиболее распространенных атрибутов, которые собираются, когда компания продает продукт покупателю.
 
 Целевая переменная: столбец ['score']
+
+===============================================================================================
 
 ['user-id',  ///The unique ID number given to the customer by the company upon registration.
  'user-age', ///Customer’s current age.
@@ -30,3 +33,23 @@ https://www.kaggle.com/liewyousheng/productrelevance
  'year', ///The year when the transaction was performed.
  'month', ///The month when the transaction was performed.
  'score'] ///The relevance score of the transaction to the user.
+
+
+===============================================================================
+descrioption for preprocessed--  ###Пропуски изначала отсутствуют
+list of chenged:
+
+user-gender:  male=1, female =0
+user-nationality:  local=0, foreign=1
+user-knowledge:  low=0, medium=1, high=2
+user-loyalty:  new=0, sporadic=1, long-term=2
+user-loan: no=0, yes=1
+user-riskAversion:  low=0, high=1
+user-marital:  married=0, single=1, divorsed=2
+product-type:  etf=0, bond=1, stock=2
+product-risk:  low=0, medium=1, high=2
+product-yield: low=0, medium=1, high=2
+
+transaction-id AND user-id убраны буквенные приставки
+
+
